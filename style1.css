@@ -1,0 +1,80 @@
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  display :flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("images/website1.png");
+  background-size: contain;
+  background-repeat: repeat;
+  font-family: sans-serif;
+}
+.container{
+  margin-top:0px;
+  margin-left: 0px;
+  border:2px solid;
+  width:100vw;
+  height: 100vh;
+}
+
+.nav{
+  margin-top:0.5%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  height:5%;
+  float: inherit;
+  border:2px solid;
+}
+.leftnav{
+  float:left;
+  margin-left: 0.5%;
+  width:45%;
+
+}
+.leftnav img{
+  padding-left: 1%;
+  height: 10%;
+  width: 10%;
+  cursor: pointer;
+}
+.leftnav span{
+  padding-left: 0.5%;
+  font-size: 24px;
+  font-style: italic;
+  font-family: fantasy;
+}
+.rightnav{
+  float:right;
+  margin-right: 0.5%;
+  width:45%;
+}
+.rightnav ul li{
+  float:left ;
+  font-size: 24px;
+  margin-left: 10%;
+}
+.rightnav ul li a{
+  text-decoration: none;
+  color:blue;
+}
+.rightnav ul li a:hover{
+  color: red;
+}
+.rightnav ul li a:visited{
+  color: purple;
+  text-shadow: blue 2px 2px;
+}
+
+.intro{
+  margin-left: 5%;
+  margin-top: 2.5%;
+  width:50%;
+
+}
+.intro h1{
+  text-align: justify;
+  font-size: 40px;
+  color:#abccfa;
+  text-shadow: 2px 2px red;
+}
