@@ -78,3 +78,39 @@ body{
   color:#abccfa;
   text-shadow: 2px 2px red;
 }
+.bgim1{
+  margin-top: 0px;
+  margin-left: 0px;
+  display :flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("images/About.webp");
+  background-size: contain;
+  font-family: sans-serif;
+}
+.content{
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+.content h1{
+  color:#eeff41;
+  text-shadow: 2px 2px #c6ff00 ;
+  text-align: center;
+  font-size: 36px;
+}
+.content p{
+  text-align: justify;
+  color:#ffff28;
+  text-shadow: 2px 2px #7c4dff;
+  font-size: 24px;
+}
+.copy{
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  text-shadow: 2px 2px green;
+  font-size: 20px;
+  padding-left: 5%;
+}
