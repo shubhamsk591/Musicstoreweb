@@ -28,6 +28,23 @@
            Dirty-Palm
           </div>
         </div>
+        <audio id="s1">
+          <source src="Song/pl1.mp3" type="audio/mp3">
+        </audio>
+        <script>
+        var s1 =document.getElementById("s1");
+        var p1 = document.getElementById("play1");
+
+        p1.onclick = function() {
+          if( s1.paused){
+            s1.play();
+            p1.src="images/pause.png";
+          }
+          else{
+          s1.pause();
+          p1.src="images/play.png";}
+        }
+        </script>
           <div class="play1">
           <img src="images/play.png" alt="Play button" id="play2">
           <div class="p1">
