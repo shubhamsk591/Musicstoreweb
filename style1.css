@@ -53,6 +53,7 @@ body{
   float:left;
   font-size: 24px;
   margin-left: 10%;
+  background-color:orange;
 }
 .rightnav ul li a{
   text-decoration: none;
