@@ -67,14 +67,31 @@ body{
 .rightnav ul li a:visited{
   color:purple;
 }
-
 .intro{
   margin-left: 5%;
   margin-top: 2.5%;
-  width:50%;
+  width:100%;
+}
+.inlef{
+  float:left;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  width:45%;
 
 }
-.intro h1{
+.inlef h1{
+  text-align: justify;
+  font-size: 40px;
+  color:#abccfa;
+  text-shadow: 2px 2px red;
+}
+.inrig{
+float:right;
+margin-right: 5%;
+margin-top:2.5%;
+width:45%;
+}
+.inrig h1{
   text-align: justify;
   font-size: 40px;
   color:#abccfa;
